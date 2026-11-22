@@ -1,0 +1,9 @@
+{
+  "name": "tizenbrew-system-probe",
+  "version": "0.1.0",
+  "description": "Read-only CPU / memory / storage probe for TizenBrew",
+  "packageType": "app",
+  "appName": "System Probe",
+  "appPath": "app/index.html",
+  "keys": ["ColorF0Red"]
+}

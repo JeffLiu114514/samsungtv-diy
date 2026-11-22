@@ -1,0 +1,152 @@
+[
+  {
+    "app_id": "3201907018807",
+    "app_title": "Netflix",
+    "app_version": "90.25.23030",
+    "app_package_name": "org.tizen.netflix-app",
+    "app_tizen_id": "org.tizen.netflix-app",
+    "app_size": "56904819",
+    "use_count": "43",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3201910019365",
+    "app_title": "Prime Video",
+    "app_version": "5.3.23",
+    "app_package_name": "org.tizen.primevideo",
+    "app_tizen_id": "org.tizen.primevideo",
+    "app_size": "12367171",
+    "use_count": "3",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3201901017640",
+    "app_title": "Disney+",
+    "app_version": "26.4.0",
+    "app_package_name": "MCmYXNxgcu",
+    "app_tizen_id": "MCmYXNxgcu.DisneyPlus",
+    "app_size": "1912832",
+    "use_count": "0",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3201807016597",
+    "app_title": "Apple TV",
+    "app_version": "17.0.0",
+    "app_package_name": "com.samsung.tv.aria-video",
+    "app_tizen_id": "com.samsung.tv.aria-video",
+    "app_size": "10707527",
+    "use_count": "0",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "111299001912",
+    "app_title": "YouTube",
+    "app_version": "2.1.527",
+    "app_package_name": "9Ur5IzDKqV",
+    "app_tizen_id": "9Ur5IzDKqV.TizenYouTube",
+    "app_size": "49152",
+    "use_count": "2",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3201707014489",
+    "app_title": "YouTube TV",
+    "app_version": "1.0.95",
+    "app_package_name": "PvWgqxV3Xa",
+    "app_tizen_id": "PvWgqxV3Xa.YouTubeTV",
+    "app_size": "45056",
+    "use_count": "0",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3201606009684",
+    "app_title": "Spotify - Music and Podcasts",
+    "app_version": "2.1.71",
+    "app_package_name": "rJeHak5zRg",
+    "app_tizen_id": "rJeHak5zRg.Spotify",
+    "app_size": "40960",
+    "use_count": "7",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3202604044929",
+    "app_title": "Instagram",
+    "app_version": "5.10.10",
+    "app_package_name": "zigzSWa1hy",
+    "app_tizen_id": "zigzSWa1hy.InstagramAirwave",
+    "app_size": "573440",
+    "use_count": "0",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3202010022079",
+    "app_title": "Browser",
+    "app_version": "9.1.08240",
+    "app_package_name": "org.tizen.browser",
+    "app_tizen_id": "org.tizen.browser",
+    "app_size": "8108588",
+    "use_count": "1",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3202508041019",
+    "app_title": "Google Photos for Samsung TV",
+    "app_version": "126.26.08081",
+    "app_package_name": "com.samsung.tv.google-photos-ui",
+    "app_tizen_id": "com.samsung.tv.google-photos-ui",
+    "app_size": "5385542",
+    "use_count": "0",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "20262100001",
+    "app_title": "User Guide",
+    "app_version": "5.2.0",
+    "app_package_name": "26emanual1",
+    "app_tizen_id": "26emanual1.emanual",
+    "app_size": "13602816",
+    "use_count": "0",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3201807016658",
+    "app_title": "Samsung Promotion",
+    "app_version": "3.2.96",
+    "app_package_name": "yL49PNFmjW",
+    "app_tizen_id": "yL49PNFmjW.PromotionApp",
+    "app_size": "2392064",
+    "use_count": "0",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3201909019211",
+    "app_title": "Samsung Health",
+    "app_version": "7.26.06171",
+    "app_package_name": "com.samsung.tv.samsung-health",
+    "app_tizen_id": "com.samsung.tv.samsung-health",
+    "app_size": "944065",
+    "use_count": "0",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "3202407036314",
+    "app_title": "SecurityCenter",
+    "app_version": "2.0.37",
+    "app_package_name": "com.samsung.tv.SecurityCenter",
+    "app_tizen_id": "com.samsung.tv.SecurityCenter",
+    "app_size": "1343473",
+    "use_count": "1",
+    "is_removable": "1"
+  },
+  {
+    "app_id": "xvvl3S1bvH",
+    "app_title": "TizenBrewNextGeneration",
+    "app_version": "2.0.5",
+    "app_package_name": "xvvl3S1bvH",
+    "app_tizen_id": "xvvl3S1bvH.TizenBrewStandalone",
+    "app_size": "923284",
+    "use_count": "0",
+    "is_removable": "1"
+  }
+]
