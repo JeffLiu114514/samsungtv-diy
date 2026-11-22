@@ -92,12 +92,23 @@ Tizen 7 之后所有包必须用三星证书重签，流程是：Samsung 账号 
 
 安装方式：在电视的 TizenBrew 里选 Install from GitHub，输入 `用户名/仓库名`。
 
-常用模块：
+### 已知故障：TizenBrew 的 Settings 页在本机打不开
 
-| 模块 | 说明 |
-|---|---|
-| [`reisxd/TizenTube`](https://github.com/reisxd/TizenTube) | 无广告 YouTube，支持 SponsorBlock |
-| [`GlenLowland/jellyfin-tizen-npm-publish`](https://github.com/GlenLowland/jellyfin-tizen-npm-publish) | Jellyfin 客户端 |
+点齿轮会跳到 `file:///tizenbrew-ui/dist/index.html/settings`，返回 `ERR_ACCESS_DENIED`（Tizen 10 拒绝这种路径式路由）。后果是**模块安装入口不可用**，TizenBrew 内部只能跑空列表。
+
+绕开办法：优先装**独立 WGT 版**，不依赖 TizenBrew 模块系统。例如 TizenTube：
+
+```
+TizenTubeCobalt.wgt                          Tizen 6+（推荐）
+TizenTubeCobaltTizenTubeProxyAddress.wgt     同上，但代理地址写成主机名 tizentube
+TizenTubeOld.wgt                             Tizen 3/4/5/5.5
+```
+
+来源：<https://github.com/reisxd/TizenTube/releases>。本机实测 `TizenTubeCobalt.wgt`（v2.1.1，1.48 MB）安装成功。
+
+### Jellyfin 的情况
+
+`jellyfin/jellyfin-tizen` 没有发布 WGT，`GlenLowland/jellyfin-tizen-npm-publish` 只有 npm 包（模块形态）。在 Settings 页坏掉时**装不了**。可选：修 TizenBrew 路由、自己用 Tizen Studio 构建 WGT、或直接用电视自带 Browser 打开 Jellyfin Web 界面。
 
 ### 4.3 TizenBrew Installer 的本地服务
 
