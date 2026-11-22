@@ -143,24 +143,29 @@ log_enable: disabled
 
 ## 6. 本仓库的探针模块
 
-`module/` 是一个 TizenBrew 应用模块，读整机 CPU / 内存 / 存储，每 15 秒刷新（遥控器红色键也可刷新）。
+本仓库根目录本身就是一个 TizenBrew 应用模块，读整机 CPU / 内存 / 存储，每 15 秒刷新（遥控器红色键也可刷新）。
 
 ```
-module/
 ├── package.json      # packageType: app, appPath: app/index.html
 └── app/
     ├── index.html
     └── app.js
 ```
 
-安装：把 `module/` 推到 GitHub，在 TizenBrew 里 Install from GitHub 输入 `你的用户名/仓库名`。
+安装：在电视的 TizenBrew 里选 **Install from GitHub**，输入：
 
-本地预览（不需要电视）：
+```
+JeffLiu114514/samsungtv-diy
+```
+
+本地预览（不需要电视，用模拟数据看布局）：
 
 ```bash
-python -m http.server 8766 --directory module
-# 打开 http://127.0.0.1:8766/dev/preview.html （dev 目录为模拟数据预览，可选）
+python -m http.server 8766
+# 浏览器打开 http://127.0.0.1:8766/app/index.html
 ```
+
+> `app/index.html` 在没有 `tizen.systeminfo` 的环境里会显示"当前环境没有 tizen.systeminfo"，属于预期行为。
 
 ## 7. 安全提醒
 
